@@ -1,0 +1,86 @@
+body {
+    background-color: #c9bfbf;
+}
+
+.conteudo {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: aliceblue;
+    border-radius: 12px;
+}
+
+.titulo {
+    background-color: white;
+    padding: 12px;
+    margin: 13px 0;
+    border-radius: 7px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.atendente-1, .atendente-2, .atendente-3 {
+    border: 1px solid black;
+    margin: 22px 225px 0 0;
+    border-radius: 12px;
+    padding: 4.5px;
+}
+
+.atendente-1 h4, .atendente-2 h4, .atendente-3 h4 {
+    margin: 0 6px 0 0;
+}
+
+.atendente-1 p, .atendente-2 p, .atendente-3 p {
+    margin: 0 0 0 12px;
+}
+
+.cliente-1, .cliente-2, .cliente-3 {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: end;
+    border: 1px solid black;
+    margin: 22px 0 0 225px;
+    border-radius: 12px;
+    padding: 4.5px;
+}
+
+.client-1 h4, .cliente-2 h4, .cliente-3 h4 {
+    margin:6px 0 6px 0;  
+}
+
+input {
+    width: 800px;
+    padding: 12px;
+    border:1px solid black;
+    border-radius: 8px;
+    margin: 0 12px 0 0;
+    display:flex;
+    margin: 0 auto;
+}
+
+button {
+    padding: 2px 12px;
+    background-color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    display:flex;
+    margin: 0 auto;
+    margin-top: 23px;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+
+/* classe para js */
+.clienteM {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: end;
+    border: 1px solid black;
+    margin: 22px 0 0 225px;
+    border-radius: 12px;
+    padding: 4.5px; 
+}

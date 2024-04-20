@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/global.css">
+  <link rel="stylesheet" href="./styles/chat.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="conteudo" id="chat-conteudo">
+    <div class="titulo">
+      <h1>Chat Online</h1>
+    </div>
+    <div class="atendente-1">
+      <h4>Atendente</h4>
+      <p>Olá tudo bem? No que posso lhe ajudar?</p>
+    </div>
+    <div class="cliente-1">
+      <h4>Cliente</h4>
+      <p>Queria fazer um pedido de uma pizza,<br> e uma coca gelada.</p>
+    </div>
+    <div class="atendente-2">
+      <h4>Atendente</h4>
+      <p>Ok! Qual seu endereço?</p>
+    </div>
+    <div class="cliente-2">
+      <h4>Cliente</h4>
+      <p>Rua Valmor Junior, 65, Centro.</p>
+    </div>
+    <div class="atendente-3">
+      <h4>Atendente</h4>
+      <p>Valor ficou em R$80,00 reais</p>
+    </div>
+  </div>
+  <div class="botao-input">
+    <input type="text" id="usuario-input" placeholder="Digite sua mensagem...">
+    <button onclick="enviarMensagem()">Enviar</button>
+  </div>
+</body>
+<script src="./js/chat.js"></script>
+</html>
